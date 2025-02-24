@@ -1,0 +1,442 @@
+c<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogger</title>
+    <!--JQuery cdn-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <!--OwlCarousel cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--AOS library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  
+    
+    <!--FontAwsome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Linking css file-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!----------------------Navigation---------------->
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <!-- <a href="#" class="text-gray">Bloggary</a> -->
+                 <!-- <img src="P.Image/logo.png"> -->
+                 <nav class="navbar">
+                    <a href="/" class="logo">
+                        <img src="P.Image/logo.png" alt="DS Blogs Logo">
+                    </a>
+                </nav>
+                
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div>    
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Category</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li>
+                    <!-- <li class="nav-link">
+                        <a href="#">Archive</a>
+                    </li> -->
+                    <li class="nav-link">
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!----------xx----------Navigation--------xx------>
+    
+    <!-------------Main Section--------------->
+    <main>
+                <!--Title Section-->
+        <section class="title">
+            <div class="title-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>Adventure Awaits, Go Find It</h3>
+                <h1>A hidden gem waiting to be discovered</h1>
+                <button class="btn">Explore</button>
+            </div>
+        </section>
+                <!--x--Title Section--x-->
+        
+                <!--Carousel Section--> 
+        <section>
+            <div class="blogg">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blogg-post">
+                        <div class="blogg-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="P.Image/kds.jpeg" alt="post 1">
+                            <div class="blogg-title">
+                                <h3>Kathmandu Durbar Square</h3>
+                                <h5>Kathmandu Durbar Square, a UNESCO World Heritage Site, is one of Nepal’s most significant cultural and historical landmarks. Located in the heart of Kathmandu, this square is a stunning collection of palaces, courtyards, temples, and shrines that date back to the Malla and Shah dynasties. It serves as a vivid reminder of Nepal’s royal past and continues to be a hub of cultural and religious activities.</h5>
+                                <span>Location: Kathmandu, Nepal</span>
+                            </div>
+                        </div>
+                        <div class="blogg-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="P.Image/pds.jpeg" alt="post 2">
+                            <div class="blogg-title">
+                                <h3>Patan Durbar Square</h3>
+                                <h5> Patan Durbar Square, located in the heart of Lalitpur (Patan), is one of Nepal’s most stunning heritage sites. This UNESCO World Heritage Site is known for its exquisite Newar architecture, centuries-old temples, and the rich cultural history of the Malla kings. Often overshadowed by Kathmandu Durbar Square, Patan’s royal square offers a more intimate yet equally mesmerizing experience of Nepal’s artistic and historical grandeur.</h5>
+                                <span>Location: Lalitpur, Nepal</span>
+                            </div>
+                        </div>
+                        <div class="blogg-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="P.Image/bds.jpeg" alt="post 3">
+                            <div class="blogg-title">
+                                <h3>Bhaktapur Durbar Square</h3>
+                                <h5>Nestled in the heart of Bhaktapur, just 13 km east of Kathmandu, Bhaktapur Durbar Square is one of the most well-preserved historical sites in Nepal. This UNESCO World Heritage Site is a stunning blend of Newar architecture, intricate wood carvings, and cultural traditions that transport visitors back in time. It is one of the beautiful places in Nepal</h5>
+                                <span>Location: Bhaktapur, Nepal</span>
+                            </div>
+                        </div>
+                        <div class="blogg-content">
+                            <img src="P.Image/bauddha.jpeg" alt="post 4" data-aos="fade-right" data-aos-delay="200">
+                            <div class="blogg-title">
+                                <h3>Bauddhanath</h3>
+                                <h5>One of Nepal’s most iconic landmarks, Boudhanath Stupa, is a magnificent Buddhist monument that radiates peace and spirituality. Located about 11 km from Kathmandu’s city center, this UNESCO World Heritage Site is one of the largest and most significant stupas in the world. With its towering white dome, all-seeing Buddha eyes, and the constant hum of prayer wheels and chants, Boudhanath is a place where history, culture, and devotion come together. </h5>
+                                <span>Location: Kathmandu, Nepal</span>
+                            </div>
+                        </div>
+                        <div class="blogg-content">
+                            <img src="P.Image/swyambu.jpg" alt="post 5">
+                            <div class="blogg-title">
+                                <h3>Swayambhunath Stupa</h3>
+                                <h5>Perched atop a hill overlooking Kathmandu Valley, Swayambhunath Stupa is one of Nepal’s most revered and ancient Buddhist sites. Known as the Monkey Temple, thanks to the large population of playful monkeys that inhabit the area, Swayambhunath is a blend of Buddhist and Hindu traditions, offering breathtaking views, deep spiritual significance, and a glimpse into Nepal’s rich history.</h5>
+                                <span>Location: Kathmandu, Nepal</span>
+                            </div>
+                        </div>
+                        <div class="blogg-content">
+                            <img src="P.Image/pashupatinath.jpeg" alt="post 6">
+                            <div class="blogg-title">
+                                <h3> Pashupatinath Temple</h3>
+                                <h5>One of the holiest Hindu temples in the world, Pashupatinath Temple stands as a symbol of spirituality, devotion, and Nepal’s rich cultural heritage. Located on the banks of the Bagmati River in Kathmandu, this UNESCO World Heritage Site is a significant pilgrimage destination for Hindus and a must-visit for anyone exploring Nepal’s religious traditions.</h5>
+                                <span>Location: Kathmandu, Nepal</span>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!--x--Carousel Section--x-->
+
+                <!--Site details Section-->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="fade-zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="P.Image/pokhara.jpeg" class="img" alt="1st Blog">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fa-solid fa-user text-gray"></i>&nbsp;Dipen Shrestha&nbsp;&nbsp;</span>
+                                <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;July 15, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Pokhara: Nepal’s Enchanting City of Lakes and Mountains</a>
+                            <p>Nestled in the lap of the Himalayas, Pokhara is Nepal’s crown jewel—a city where nature, adventure, and tranquility blend seamlessly. Whether you're a thrill-seeker, a nature lover, or a spiritual traveler, Pokhara offers something for everyone.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="fade-zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="P.Image/chitwan.jpeg" class="img" alt="2nd Blog">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fa-solid fa-user text-gray"></i>&nbsp;Dipen Shrestha&nbsp;&nbsp;</span>
+                                <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;September 13, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Chitwan: Nepal’s Wildlife Wonderland</a>
+                            <p>Tucked away in the southern plains of Nepal, Chitwan is a haven for nature lovers and wildlife enthusiasts. Home to the famous Chitwan National Park, this region offers an incredible blend of rich biodiversity, Tharu culture, and adventure activities. If you’re looking for an escape into the wild, Chitwan is the perfect destination.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="fade-zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="P.Image/lumbini.jpeg" class="img" alt="3rd Blog">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fa-solid fa-user text-gray"></i>&nbsp;Dipen Shrestha&nbsp;&nbsp;</span>
+                                <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;August 10, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Lumbini: The Sacred Birthplace of Lord Buddha </a>
+                            <p>Lumbini, located in the Rupandehi district of Nepal, is one of the holiest pilgrimage sites in the world. Recognized as a UNESCO World Heritage Site, it is the birthplace of Siddhartha Gautama (Lord Buddha) and a place of deep spiritual significance. Every year, thousands of pilgrims and tourists visit Lumbini to experience its peace, history, and unique cultural heritage.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="fade-zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="P.Image/mustang.jpeg" class="img" alt="4th Blog">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fa-solid fa-user text-gray"></i>&nbsp;Dipen Shrestha&nbsp;</span>
+                                <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;June 26, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Mustang: Nepal’s Mysterious Forbidden Kingdom</a>
+                            <p> Hidden in the rain shadow of the Himalayas, Mustang is one of Nepal’s most mesmerizing and mystical regions. Known as the "Last Forbidden Kingdom," Mustang remained closed to foreigners until 1992, preserving its ancient Tibetan culture, rugged landscapes, and centuries-old monasteries. Whether you seek adventure, history, or spirituality, Mustang is a land like no other.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="fade-zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="P.Image/manang.jpeg" class="img" alt="5th Blog">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fa-solid fa-user text-gray"></i>&nbsp;Dipen Shrestha&nbsp;&nbsp;</span>
+                                <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;November 10, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Manang: Nepal’s Hidden Himalayan Paradise</a>
+                            <p>Tucked away in the lap of the Annapurna range, Manang is a breathtaking Himalayan valley that offers raw natural beauty, rich Tibetan culture, and some of the best trekking experiences in Nepal. Situated at an altitude of 3,519 meters (11,545 ft), this remote yet mesmerizing destination is a must-visit for adventurers, nature lovers, and those seeking tranquility in the mountains.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- mine -->
+                    <hr>
+                    <div class="post-content" data-aos="fade-zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="P.Image/rara.jpeg" class="img" alt="5th Blog">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fa-solid fa-user text-gray"></i>&nbsp;Dipen Shrestha&nbsp;&nbsp;</span>
+                                <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;November 22, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Rara Lake: Nepal’s Hidden Blue Gem</a>
+                            <p>Nestled in the remote Mugu district of northwestern Nepal, Rara Lake is the largest and one of the most pristine lakes in the country. Surrounded by lush forests, snow-capped mountains, and the untouched beauty of Rara National Park, this breathtaking alpine lake sits at an altitude of 2,990 meters (9,810 ft). Often referred to as the "Queen of Lakes," Rara is a paradise for nature lovers, adventure seekers, and those looking for peace away from the crowds.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="turnpage flex-row">
+                        <a href="#"><i class="fa-solid fa-angle-left"></i></a>
+                        <a href="#" class="page">1</a>
+                        <a href="#" class="page">2</a>
+                        <a href="#" class="page">3</a>
+                        <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2> Travel Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="#">Adventure Travel</a> 
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="#">Cultural Travel</a> 
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="#">Road Trips</a> 
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a href="#">Royal Visits</a> 
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                <a href="#">Package Tour</a> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mostvisited-posts">
+                        <h2>Most Visited Posts</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="P.Image/illam.jpeg" class="img" alt="sidepost">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;May 2, 2023</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Ilam: Tea gardens, hills, greenery, cool climate, beauty.</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="P.Image/janakpurjpeg.jpeg" class="img" alt="sidepost">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;June 3, 2023</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Janakpur: Ram-Janaki Temple, Mithila culture, art, spirituality.</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-image">
+                                <div>
+                                    <img src="P.Image/palpa.jpeg" class="img" alt="sidepost">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;November 11, 2023</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Palpa: History, Rani Mahal, culture, hills, views.</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-image">
+                                <div>
+                                    <img src="P.Image/gorkhajpeg.jpeg" class="img" alt="sidepost">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;Feburary 22, 2023</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Gorkha: Historic palace, Manakamana Temple, Gurkha heritage.</a>
+                            </div>
+                        </div>
+                        <!-- <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                            <div class="post-image">
+                                <div>
+                                    <img src="P.Image/side5_img.jpg" class="img" alt="sidepost">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fa-solid fa-calendar-days text-gray"></i>&nbsp;October 27, 2023</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">How I travelled over 10 cities with No Money, and how can you travel like me for Free.</a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="most-searched-tags">
+                        <h2>Most Searched</h2>
+                        <div class="tag flex-row">
+                            <span class="name" data-aos="flip-up" data-aos-delay="100">Free Travel</span>
+                            <span class="name" data-aos="flip-up" data-aos-delay="200">Alone Trip</span>
+                            <span class="name" data-aos="flip-up" data-aos-delay="300">Travel with dog</span>
+                            <span class="name" data-aos="flip-up" data-aos-delay="400">Mountain Adventures</span>
+                            <span class="name" data-aos="flip-up" data-aos-delay="500">Cheap Place in Nepal</span>
+                            <span class="name" data-aos="flip-up" data-aos-delay="600">Ancient places inside Nepal</span>
+                            <span class="name" data-aos="flip-up" data-aos-delay="700">Trekkeing in Nepal</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+                <!--x--Site details Section--x-->
+    </main>
+    <!-----xx------Main Section-------xx------>
+
+    <!------------Footer Section------------->
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="about" data-aos="fade-right" data-aos-delay="200">
+                <h2>About Us</h2>
+                <p>Welcome to DS Blogs, your ultimate travel companion for discovering Nepal’s hidden gems and breathtaking destinations! 🌍✨
+
+                    Whether you're a passionate traveler, an adventure seeker, or someone who loves exploring new cultures, our blog is here to inspire and guide you. From the majestic Himalayas to the serene lakes, vibrant cities, and historical wonders, we bring you authentic travel experiences, expert tips, and must-visit places.
+                    
+                    Join us as we explore Nepal’s rich landscapes, uncover local traditions, and share unforgettable travel stories. Let’s make every journey an adventure! 🚀🏔️
+                    
+                    Follow us for more travel inspiration and start your journey today!</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay with Us</p>
+                <div class="element">
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                <br><input type="submit" class="submit">Submit</span>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="P.Image/ins1.jpg" alt="img1">
+                    <img src="P.Image/ins2.jpg" alt="img2">
+                    <img src="P.Image/ins3.jpg" alt="img3">
+                    <img src="P.Image/ins4.jpg" alt="img4">
+                    <img src="P.Image/ins5.jpg" alt="img5">
+                    <img src="P.Image/ins6.jpg" alt="img6">
+                </div>
+            </div> 
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow Me</h2>
+                <p>Connect with me socially</p>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <!-- <i class="fa-brands fa-youtube"></i> -->
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>    
+        </div>
+        <div class="right flex-row">
+            <h4 class="text-magenta">
+                All rights reserved | &copy; A DS Productions 2024. 
+                <!-- <a href="#" target="_black" >Love<i class="fa-solid fa-heart"></i></a> -->
+            </h4>
+        </div>
+    </footer>
+    <!------xx------Footer Section-------xx------>
+
+
+
+    <!--JQuery library file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--Owl-Carousel JS file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!--Linking  AOS JS file-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!--Linking JS file-->
+    <script src="./main.js"></script>
+
+</body>
+</html>
